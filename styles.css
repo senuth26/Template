@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+}
+
+/* navigation bar & logo */
+
+.mainNav {
+    background-color:white;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    width: 100px;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.mainNav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.mainNav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-inline-end: 80px;
+}
+
+.mainNav ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: #467e43;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.navText:hover{
+    background: gainsboro;
+    transition: .5s;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color:#467e43;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+    margin-right: 20px;
+}
+
+#sidebar {
+    display: none;
+}
+
+/* main image and title */
+
+#mainimg {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: black 0px 0px 20px;
+}
+
+.subheading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    font-size: 3em;
+}
+.subheadin {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    top: 140px;
+    position: absolute;
+    width: 100%;
+    font-size: 4em;
+}
+
+.container1 {
+  position: relative;
+  color: white;
+}
+
+/* index page - main image text */
+
+.mainText {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  font-family: sans-serif;
+  font-size: 4em;
+  text-align: left;
+}
+
+.mainText2 {
+  position: absolute;
+  top: 210px;
+  left: 30px;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 3rem;
+  text-align: left;
+  width: 500px;
+}
+
+.button {
+    position: absolute;
+    background-color: transparent;
+    border: white solid;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    margin-top: 8px;
+    border-radius: 35px;
+}
+
+.button:hover {
+    background-color: #3cb1cf;
+    border:  #3cb1cf solid;
+}
+
+/* index page - introduction */
+
+#intro{
+    color: rgb(129, 129, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+#million {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#pg1Img1{
+    width: 700px;
+    height: auto;
+}
+
+#homepageImg {
+    width: 530px;
+    height: 280px;
+
+}
+
+#homepageImg2 {
+    width: 450px;
+    height: 560px;
+}
+
+.text1 ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(129, 129, 129);
+    font-size: 1.2em;
+    position: relative;
+    width: 500px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.text1 {
+    margin-left: 20px;
+    padding: 15px;
+}
+
+ol{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(129, 129, 129);
+    font-size: 1.2em;
+    position: relative;
+    width: 600px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+/* categories page */
+
+#pg2para1 {
+    color: rgb(129, 129, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    top: 2em;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+#pg2 {
+    font-family: 'Poppins', sans-serif;
+    color: #467e43;
+    font-size: 2.5em;
+    text-align: center;
+    font: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img2 {
+    object-fit: contain;
+}
+
+#pg2list1 {
+    color: rgb(129, 129, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    top: 2em;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+#pg2list1 a{
+    text-decoration: none;
+}
+
+.section1 {
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    width: 1250px;
+}
+
+th {
+    border: 2px #f2eeee solid;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: rgb(88, 87, 87);
+    text-align: center;
+}
+
+td {
+    border: 2px #f2eeee solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: rgb(88, 87, 87);
+    padding: 10px ;
+}
+
+#groupimg {
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+figcaption {
+    color: rgb(129, 129, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+
+#typeimg {
+    border-radius: 50%;
+    width: 170px;
+    height: 150px;
+}
+
+.typebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.categorybutton {
+    color: rgb(129, 129, 129);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    border: #ccc9c9 solid;
+    border-width: 1px;
+    padding: 6px;
+}
+
+.categorybutton:hover {
+    border: black solid;
+    background-color: black;
+    color: white;
+}
+
+#typemap{
+    border: 0;
+    width: 500px;
+    height: 300px;
+}
+
+.tableTypes {
+    overflow-x: auto;
+    margin: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    background: linear-gradient(to right, #3f693f,#a6a666);
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.footercontainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    color:white;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.item {
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    text-align: left;
+}
+
+.item a{
+    text-decoration: none;
+    color:white;
+    list-style-type: none;
+}
+
+.item li{
+    list-style-type: none;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+.itemhead {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/* font sizes */
+
+h4{
+    font-family: 'Poppins', sans-serif ;
+    text-align: center;
+    padding: 4px;
+    color: #467e43;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #467e43;
+    font-size: 1.8em;
+    text-align: left;
+    font: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: black; 
+    font-size: 3.5em;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #467e43;
+    font-size: 2.5em;
+    text-align: left 50px;
+    font: bold;
+    margin-left: 90px;
+    padding: 15px;
+}
+
+/* hikkaduwa page */
+
+.hikkahead {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+#hikkaMap{
+    width: auto;
+    height: 400px;
+    border: 0;
+    margin-top: 10px;
+}
+
+#paraleft, #pararight {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(129, 129, 129);
+    font-size: 1.2em;
+    position: relative;
+    width: 600px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.text2{
+    padding: 15px;
+}
+
+
+.containerPara2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containerPara1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f2eeee;
+}
+
+.just {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    position: absolute;
+    top: 1155px;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template-columns: 1000px auto;
+    margin: 40px;
+    justify-content: center;
+}
+hr{
+    color: #ccc9c9;
+    width: 1000px;
+}
